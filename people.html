@@ -18,15 +18,15 @@
             </div>
             <div class="people-content">
                 <div class="tab">
-                    <button class="tablinks" onclick="openCity(event, 'London')" id="defaultOpen">London</button>
-                    <button class="tablinks" onclick="openCity(event, 'Paris')">Paris</button>
-                    <button class="tablinks" onclick="openCity(event, 'Tokyo')">Tokyo</button>
-                    <button class="tablinks" onclick="openCity(event, 'London')" id="defaultOpen">London</button>
-                    <button class="tablinks" onclick="openCity(event, 'Paris')">Paris</button>
-                    <button class="tablinks" onclick="openCity(event, 'Tokyo')">Tokyo</button>
+                    <button class="tablinks" onclick="openCity(event, 'London')" id="defaultOpen">1950s</button>
+                    <button class="tablinks" onclick="openCity(event, 'Paris')">1960s</button>
+                    <button class="tablinks" onclick="openCity(event, 'Tokyo')">1970s</button>
+                    <button class="tablinks" onclick="openCity(event, 'London')" id="defaultOpen">1950s</button>
+                    <button class="tablinks" onclick="openCity(event, 'Paris')">1980s</button>
+                    <button class="tablinks" onclick="openCity(event, 'Tokyo')">1990s</button>
                 </div>
                 <div id="London" class="tabcontent">
-                    <h3>London</h3>
+                    <h3>1950s Heros</h3>
                     <div class="w3-row-padding">
                         <div class="w3-container w3-third">
                             <img
@@ -61,16 +61,109 @@
                     </div>
                 </div>
                 <div id="Paris" class="tabcontent">
-                    <h3>Paris</h3>
-                    <p>Paris is the capital of France.</p>
+                    <h3>1960s</h3>
+                    <div class="w3-row-padding">
+                        <div class="w3-container w3-third">
+                            <img
+                                src="old-man.jpg"
+                                style="width:100%;cursor:pointer"
+                                onclick="onClick(this)"
+                                class="w3-hover-opacity"
+                            >
+                        </div>
+                        <div class="w3-container w3-third">
+                            <img
+                                src="old-woman.jpg"
+                                style="width:100%;cursor:pointer"
+                                onclick="onClick(this)"
+                                class="w3-hover-opacity"
+                            >
+                        </div>
+                        <div class="w3-container w3-third">
+                            <img
+                                src="other-man.jpg"
+                                style="width:100%;cursor:pointer"
+                                onclick="onClick(this)"
+                                class="w3-hover-opacity"
+                            >
+                        </div>
+                    </div>
+                    <div id="modal01" class="w3-modal" onclick="this.style.display='none'">
+                        <span class="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
+                        <div class="w3-modal-content w3-animate-zoom">
+                            <img id="img01" style="width:100%">
+                        </div>
+                    </div>
                 </div>
                 <div id="Tokyo" class="tabcontent">
-                    <h3>Tokyo</h3>
-                    <p>Tokyo is the capital of Japan.</p>
+                    <h3>1950s</h3>
+                    <div class="w3-row-padding">
+                        <div class="w3-container w3-third">
+                            <img
+                                src="family-line.jpg"
+                                style="width:100%;cursor:pointer"
+                                onclick="onClick(this)"
+                                class="w3-hover-opacity"
+                            >
+                        </div>
+                        <div class="w3-container w3-third">
+                            <img
+                                src="old-woman.jpg"
+                                style="width:100%;cursor:pointer"
+                                onclick="onClick(this)"
+                                class="w3-hover-opacity"
+                            >
+                        </div>
+                        <div class="w3-container w3-third">
+                            <img
+                                src="old-man.jpg"
+                                style="width:100%;cursor:pointer"
+                                onclick="onClick(this)"
+                                class="w3-hover-opacity"
+                            >
+                        </div>
+                    </div>
+                    <div id="modal01" class="w3-modal" onclick="this.style.display='none'">
+                        <span class="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
+                        <div class="w3-modal-content w3-animate-zoom">
+                            <img id="img01" style="width:100%">
+                        </div>
+                    </div>
                 </div>
                 <div id="London" class="tabcontent">
                     <h3>London</h3>
-                    <p>London is the capital city of England.</p>
+                    <div class="w3-row-padding">
+                        <div class="w3-container w3-third">
+                            <img
+                                src="old-man.jpg"
+                                style="width:100%;cursor:pointer"
+                                onclick="onClick(this)"
+                                class="w3-hover-opacity"
+                            >
+                        </div>
+                        <div class="w3-container w3-third">
+                            <img
+                                src="family-tree.jpg"
+                                style="width:100%;cursor:pointer"
+                                onclick="onClick(this)"
+                                class="w3-hover-opacity"
+                            >
+                        </div>
+                        <div class="w3-container w3-third">
+                            <img
+                                src="woman-black.jpg"
+                                style="width:100%;cursor:pointer"
+                                onclick="onClick(this)"
+                                class="w3-hover-opacity"
+                            >
+                        </div>
+                    </div>
+                    <div id="modal01" class="w3-modal" onclick="this.style.display='none'">
+                        <span class="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
+                        <div class="w3-modal-content w3-animate-zoom">
+                            <img id="img01" style="width:100%">
+                        </div>
+                    </div>
                 </div>
                 <div id="Paris" class="tabcontent">
                     <h3>Paris</h3>

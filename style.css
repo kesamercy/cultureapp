@@ -41,7 +41,7 @@ html, body, h1, h2, h3, h4, h5, h6 {
     padding-top: 28%;
 }
 
-.intro-content h4, .stories h4, .clan-content h4 {
+.intro-content h4, .stories h4, .clan-content h4, .artPage h4{
     width: 75%;
     margin: auto;
     font-size: 27px;
@@ -100,6 +100,10 @@ html, body, h1, h2, h3, h4, h5, h6 {
 }
 
 /* art page */
+
+.artMain, .art-nav {
+    background-color: #FBDFDA;
+}
 
 .artPage {
     padding: 7% 20%;
