@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Cultural Artists</title>
+        <meta name="description" content="MVP Development">
+        <meta name="author" content="SitePoint">
+        <link rel="stylesheet" href="w3.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,800&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="w3-container peoplePage">
+            <div class="w3-bar w3-padding-32 art-nav w3-black">
+                <a href="#" class="w3-bar-item w3-button">Unsung Heros</a>
+                <a href="index.html" class="w3-bar-item w3-button w3-right">Home</a>
+            </div>
+            <div class="people-content">
+                <div class="tab">
+                    <button class="tablinks" onclick="openCity(event, 'London')" id="defaultOpen">London</button>
+                    <button class="tablinks" onclick="openCity(event, 'Paris')">Paris</button>
+                    <button class="tablinks" onclick="openCity(event, 'Tokyo')">Tokyo</button>
+                    <button class="tablinks" onclick="openCity(event, 'London')" id="defaultOpen">London</button>
+                    <button class="tablinks" onclick="openCity(event, 'Paris')">Paris</button>
+                    <button class="tablinks" onclick="openCity(event, 'Tokyo')">Tokyo</button>
+                </div>
+                <div id="London" class="tabcontent">
+                    <h3>London</h3>
+                    <div class="w3-row-padding">
+                        <div class="w3-container w3-third">
+                            <img
+                                src="old-man.jpg"
+                                style="width:100%;cursor:pointer"
+                                onclick="onClick(this)"
+                                class="w3-hover-opacity"
+                            >
+                        </div>
+                        <div class="w3-container w3-third">
+                            <img
+                                src="old-woman.jpg"
+                                style="width:100%;cursor:pointer"
+                                onclick="onClick(this)"
+                                class="w3-hover-opacity"
+                            >
+                        </div>
+                        <div class="w3-container w3-third">
+                            <img
+                                src="other-man.jpg"
+                                style="width:100%;cursor:pointer"
+                                onclick="onClick(this)"
+                                class="w3-hover-opacity"
+                            >
+                        </div>
+                    </div>
+                    <div id="modal01" class="w3-modal" onclick="this.style.display='none'">
+                        <span class="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
+                        <div class="w3-modal-content w3-animate-zoom">
+                            <img id="img01" style="width:100%">
+                        </div>
+                    </div>
+                </div>
+                <div id="Paris" class="tabcontent">
+                    <h3>Paris</h3>
+                    <p>Paris is the capital of France.</p>
+                </div>
+                <div id="Tokyo" class="tabcontent">
+                    <h3>Tokyo</h3>
+                    <p>Tokyo is the capital of Japan.</p>
+                </div>
+                <div id="London" class="tabcontent">
+                    <h3>London</h3>
+                    <p>London is the capital city of England.</p>
+                </div>
+                <div id="Paris" class="tabcontent">
+                    <h3>Paris</h3>
+                    <p>Paris is the capital of France.</p>
+                </div>
+                <div id="Tokyo" class="tabcontent">
+                    <h3>Tokyo</h3>
+                    <p>Tokyo is the capital of Japan.</p>
+                </div>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>

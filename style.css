@@ -1,0 +1,263 @@
+html, body, h1, h2, h3, h4, h5, h6 {
+    font-family: 'EB Garamond', serif;
+}
+
+.mainPage {
+    background-color: white;
+    color: black;
+    overflow: hidden;
+}
+
+.nav-links {
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 600;
+    padding-top: 10%;
+    /* position: fixed; */
+}
+
+#myVideo {
+    /* position: fixed; */
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100vh;
+}
+
+.intro-content {
+    padding: 5% 15%;
+}
+
+.pics {
+    column-count: 2;
+    column-gap: 15%;
+}
+
+.pics p, .stories p {
+    font-size: 20px;
+}
+
+.second-pic {
+    padding-top: 28%;
+}
+
+.intro-content h4, .stories h4, .clan-content h4 {
+    width: 75%;
+    margin: auto;
+    font-size: 27px;
+}
+
+/* places */
+
+.places {
+    background-color: #2F4858;
+    color: white;
+}
+
+.tourism, .heros-desp {
+    padding-top: 15%;
+}
+
+.tourism p, .unsung-heros p {
+    font-size: 20px;
+}
+
+.tourism h4, .unsung-heros h4 {
+    font-weight: 600;
+}
+
+/* stories */
+
+.book-video {
+    width: 70%;
+    height: auto;
+}
+
+.stories, .unsung-heros, .people {
+    padding-top: 5%;
+}
+
+.unsung-heros {
+    background: #FF715B;
+    color: white;
+}
+
+.stories {
+    background-color: #E3E2CA;
+}
+
+.stories-dsp {
+    width: 70%;
+    margin: auto;
+}
+
+.news {
+    padding: 10% 20%;
+}
+
+.news h4 {
+    font-size: 30px;
+}
+
+/* art page */
+
+.artPage {
+    padding: 7% 20%;
+    font-size: 20px;
+}
+
+.art-nav a, .stories-nav a, .clan-nav a {
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+/* people page */
+
+.peoplePage {
+    background-color: black;
+}
+
+.people-content {
+    padding: 5% 10%;
+}
+
+/* side nav tab content styling */
+
+/* Style the tab */
+
+.tab {
+    float: left;
+    background-color: black;
+    color: white;
+    width: 30%;
+}
+
+/* Style the buttons inside the tab */
+
+.tab button {
+    display: block;
+    background-color: inherit;
+    color: white;
+    padding: 22px 16px;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+
+.tab button:hover {
+    color: blue;
+}
+
+/* Create an active/current "tab button" class */
+
+.tab button.active {
+    color: orange;
+}
+
+/* Style the tab content */
+
+.tabcontent {
+    float: left;
+    padding: 0px 12px;
+    width: 70%;
+    border-left: none;
+    min-height: 100vh;
+    color: white;
+}
+
+/* stories page */
+
+.storiesPage {
+    background-color: #2F4858;
+    color: white;
+    min-height: 100vh;
+}
+
+.pple-stories {
+    column-count: 4;
+    column-gap: 100px;
+}
+
+.pple-stories p {
+    font-size: 20px;
+    text-align: center;
+}
+
+.stories-nav, .clan-nav {
+    background-color: #2F4858;
+    color: white;
+}
+
+/* clan page */
+
+.clan-content {
+    padding: 5% 20%;
+}
+
+.clanPage {
+    background-color: #2F4858;
+    min-height: 100vh;
+}
+
+.clan-content button {
+    font-size: x-large;
+    font-weight: 700;
+}
+
+.clan-content p {
+    font-size: 18px;
+}
+
+.cool-blue {
+    background-color: #33658A;
+    color: white;
+}
+
+.light-blue {
+    background-color: #86BBD8;
+}
+
+.mustard {
+    background-color: #F6AE2D;
+}
+
+.neworange {
+    background-color: #F26419;
+}
+
+/* places page */
+
+.placesPage {
+    min-height: 100vh;
+}
+
+#myVideobkgd {
+    /* position: fixed; */
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    /* min-height: 100%; */
+}
+
+.content {
+    position: fixed;
+    /* bottom: 0; */
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+    margin-top: 10%;
+    /* overflow: scroll; */
+  }
+
+/* media screen */
+
+/* side nav */
+
+@media screen and (max-height: 450px) {}

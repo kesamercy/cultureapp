@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Cultural Artists</title>
+        <meta name="description" content="MVP Development">
+        <meta name="author" content="SitePoint">
+        <link rel="stylesheet" href="w3.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,800&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="w3-container clanPage">
+            <div class="w3-bar w3-padding-32 clan-nav">
+                <a href="#" class="w3-bar-item w3-button">Clans</a>
+                <a href="index.html" class="w3-bar-item w3-button w3-right">Home</a>
+            </div>
+            <div class="clan-content">
+
+                <h4 class="w3-center w3-text-white">Clans: As a Ugandan, you can learn about your clan lineage and trace the origin of your names, clans, and totems. Click your tribe to learn more about your clan.</h4>
+
+                <div class="w3-row w3-padding-48">
+                    <div class="w3-col m3 w3-center">
+                        <button onclick="document.getElementById('id01').style.display='block'" class="w3-button  cool-blue">BAGANDA</button>
+                        <div id="id01" class="w3-modal">
+                            <div class="w3-modal-content cool-blue w3-animate-top w3-card-4">
+                                <header class="w3-container w3-light-blue">
+                                    <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+                                    <h2>Buganda Lineage History</h2>
+                                    <p>Click the tabs to reveal category info</p>
+                                </header>
+                                <div class="w3-row">
+                                    <a href="javascript:void(0)" onclick="openTown(event, 'London');">
+                                        <div class="w3-third tablink w3-bottombar w3-hover-light-grey w3-padding">Clan History</div>
+                                    </a>
+                                    <a href="javascript:void(0)" onclick="openTown(event, 'Paris');">
+                                        <div class="w3-third tablink w3-bottombar w3-hover-light-grey w3-padding">Names</div>
+                                    </a>
+                                    <a href="javascript:void(0)" onclick="openTown(event, 'Tokyo');">
+                                        <div class="w3-third tablink w3-bottombar w3-hover-light-grey w3-padding">Totems</div>
+                                    </a>
+                                </div>
+                                <div id="London" class="w3-container city" style="display:none">
+                                    <h2>London</h2>
+                                    <p>London is the capital city of England.</p>
+                                </div>
+                                <div id="Paris" class="w3-container city" style="display:none">
+                                    <h2>Paris</h2>
+                                    <p>Paris is the capital of France.</p>
+                                </div>
+                                <div id="Tokyo" class="w3-container city" style="display:none">
+                                    <h2>Tokyo</h2>
+                                    <p>Tokyo is the capital of Japan.</p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w3-col m3 w3-center">
+                        <button onclick="document.getElementById('id01').style.display='block'" class="w3-button  mustard">BAGISU</button>
+                    </div>
+                    <div class="w3-col m3 w3-center">
+                        <button onclick="document.getElementById('id01').style.display='block'" class="w3-button  light-blue">BATORO</button>
+                    </div>
+                    <div class="w3-col m3 w3-center">
+                        <button onclick="document.getElementById('id01').style.display='block'" class="w3-button  neworange">BASOGA</button>
+                    </div>
+                </div>
+                <!-- ANOTHER ROW -->
+                <div class="w3-row w3-padding-48">
+                    <div class="w3-col m3 w3-center">
+                        <button onclick="document.getElementById('id01').style.display='block'" class="w3-button  neworange">THE LUO</button>
+                        <div id="id01" class="w3-modal">
+                            <div class="w3-modal-content w3-animate-top w3-card-4">
+                                <header class="w3-container w3-teal">
+                                    <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+                                    <h2>Modal Header</h2>
+                                </header>
+                                <div class="w3-container">
+                                    <p>Some text..</p>
+                                    <p>Some text..</p>
+                                </div>
+                                <footer class="w3-container w3-teal">
+                                    <p>Modal Footer</p>
+                                </footer>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w3-col m3 w3-center">
+                        <button onclick="document.getElementById('id01').style.display='block'" class="w3-button  light-blue">BAHIMA</button>
+                    </div>
+                    <div class="w3-col m3 w3-center">
+                        <button onclick="document.getElementById('id01').style.display='block'" class="w3-button  mustard">LANGI</button>
+                    </div>
+                    <div class="w3-col m3 w3-center">
+                        <button onclick="document.getElementById('id01').style.display='block'" class="w3-button  cool-blue">ADOLA</button>
+                    </div>
+                </div>
+                <!-- another row -->
+                <div class="w3-row w3-padding-48">
+                    <div class="w3-col m3 w3-center">
+                        <button onclick="document.getElementById('id01').style.display='block'" class="w3-button  w3-black">BAGANDA</button>
+                        <div id="id01" class="w3-modal">
+                            <div class="w3-modal-content w3-animate-top w3-card-4">
+                                <header class="w3-container w3-teal">
+                                    <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+                                    <h2>Modal Header</h2>
+                                </header>
+                                <div class="w3-container">
+                                    <p>Some text..</p>
+                                    <p>Some text..</p>
+                                </div>
+                                <footer class="w3-container w3-teal">
+                                    <p>Modal Footer</p>
+                                </footer>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w3-col m3 w3-center">
+                        <button onclick="document.getElementById('id01').style.display='block'" class="w3-button  w3-amber">BAGISU</button>
+                    </div>
+                    <div class="w3-col m3 w3-center">
+                        <button onclick="document.getElementById('id01').style.display='block'" class="w3-button  w3-orange">BATORO</button>
+                    </div>
+                    <div class="w3-col m3 w3-center">
+                        <button onclick="document.getElementById('id01').style.display='block'" class="w3-button  w3-blue">BASOGA</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
